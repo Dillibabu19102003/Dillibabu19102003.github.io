@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NovaTrendz - Smart Dropshipping</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(120deg, #2193b0, #6dd5ed);
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem;
+      background-color: #fff;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    }
+    nav a {
+      text-decoration: none;
+      color: #2193b0;
+      font-weight: 600;
+    }
+    .hero {
+      padding: 4rem 2rem;
+      text-align: center;
+      background: #e0f7fa;
+    }
+    .hero h2 {
+      font-size: 2rem;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+    }
+    .product {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+    .product:hover {
+      transform: translateY(-5px);
+    }
+    .product img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .product h3 {
+      padding: 1rem;
+      margin: 0;
+      font-size: 1.2rem;
+    }
+    .product p {
+      padding: 0 1rem 1rem;
+      margin: 0;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: #2193b0;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>NovaTrendz</h1>
+    <p>Your Smart Dropshipping Hub</p>
+  </header>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#products">Products</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <section class="hero">
+    <h2>Discover Trending Products Delivered Globally</h2>
+    <p>Explore exclusive, high-conversion items handpicked for your niche</p>
+  </section>
+  <section class="products" id="products">
+    <div class="product">
+      <img src="https://ae01.alicdn.com/kf/S5c07d3deeda24db3bfbba258999f2e21m.jpg" alt="LED Dog Collar">
+      <h3>LED Dog Collar</h3>
+      <p>Keep your pet safe with this glow-in-the-dark collar. USB rechargeable.</p>
+    </div>
+    <div class="product">
+      <img src="https://ae01.alicdn.com/kf/S8d9df4a5e1804a03a91dcda0706e0454W.jpg" alt="Posture Corrector">
+      <h3>Posture Corrector</h3>
+      <p>Enhance your posture and comfort with this sleek support belt.</p>
+    </div>
+    <div class="product">
+      <img src="https://ae01.alicdn.com/kf/S6e7f8c0e8bd7482e823108bca54e590eF.jpg" alt="Smartwatch">
+      <h3>Minimalist Smartwatch</h3>
+      <p>Track steps, sleep, and more with this modern fitness accessory.</p>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2025 NovaTrendz. All rights reserved.</p>
+  </footer>
+</body>
+</html>
